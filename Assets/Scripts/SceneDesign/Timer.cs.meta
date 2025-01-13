@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f7e794ca4444e014eb34ba9e2194cf9f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - beeController: {fileID: -5298483514365900903, guid: 787e675d5578ee344923048af94afa0e, type: 3}
+  - timerText: {instanceID: 0}
+  - scoreText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

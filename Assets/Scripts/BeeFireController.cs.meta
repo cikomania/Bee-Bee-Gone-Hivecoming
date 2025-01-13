@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ae6016c306f2d1a469c4d7319417c370
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - beeProjectile: {instanceID: 0}
+  - mouth: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

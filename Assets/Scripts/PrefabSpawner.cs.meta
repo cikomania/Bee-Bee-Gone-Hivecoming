@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ab5857e41f329944a39e713b87ab935
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - beePrefab: {fileID: 935520007817886631, guid: 787e675d5578ee344923048af94afa0e, type: 3}
+  - leafPrefab: {fileID: 1662947310846737581, guid: 8dcdbd10070f91e43b61d10765d8759a, type: 3}
+  - flowerPrefab: {fileID: 4114199618786753734, guid: 13409660c5e61734098b1f39b4937137, type: 3}
+  - thornPrefab: {fileID: 4899561670836215296, guid: b9b25187bff95e043abebbcc249ea276, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
