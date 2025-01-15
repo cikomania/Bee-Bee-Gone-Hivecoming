@@ -8,6 +8,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource SFXSource;
     [SerializeField] public AudioSource moveSource;
     [SerializeField] public AudioSource rainSource;
+    [SerializeField] AudioSource bossFightMusicSource;
 
     [Header("-Audio Clip")]
     public AudioClip background;
@@ -16,6 +17,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip rain;
     public AudioClip thunder;
     public AudioClip enemyGetsHit;
+    public AudioClip bossFightTheme;
 
     public static AudioManager instance;
 
@@ -37,6 +39,8 @@ public class AudioManager : MonoBehaviour
     {
         musicSource.clip = background;
         musicSource.Play();
+
+        bossFightMusicSource.clip = bossFightTheme;
     }
 
     public void PlaySFX(AudioClip clip)
@@ -83,11 +87,13 @@ public class AudioManager : MonoBehaviour
         if (scene.name == "Main Menu")
         {            
             moveSource.Stop();
+            bossFightMusicSource.Stop();
         }
 
-        else if (scene.name == "Game Over" || scene.name == "Boss Fight Cutscene" || scene.name == "Ending Cutscene")
+        else if (scene.name == "Game Over" || scene.name == "Boss Fight Cutscene" || scene.name == "Ending Cutscene" || scene.name == "Stats")
         {
             musicSource.Stop();
+            bossFightMusicSource.Stop();
             moveSource.Stop();
             if (rainSource.isPlaying)
             {
@@ -97,6 +103,8 @@ public class AudioManager : MonoBehaviour
 
         else if (scene.name == "Boss Fight")
         {
+            bossFightMusicSource.Play();
+
             if (musicSource.isPlaying)
             {
                 musicSource.Stop();
