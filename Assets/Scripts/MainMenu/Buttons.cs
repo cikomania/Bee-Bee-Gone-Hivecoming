@@ -23,10 +23,11 @@ public class Buttons : MonoBehaviour
     }
 
     public void PlayGame()
-    {
-        PlayerPrefs.DeleteAll();        
+    {     
         PlayerPrefs.SetInt("CurrentLevel", 1); 
         PlayerPrefs.Save();
+
+        PlayerPrefs.DeleteKey("TotalScore");
         PlayerPrefs.DeleteKey("AddedScore");
 
         Score.score = 0;
@@ -36,7 +37,7 @@ public class Buttons : MonoBehaviour
 
     public void LevelSelect()
     {
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteKey("TotalScore");
         PlayerPrefs.DeleteKey("AddedScore");
         SceneManager.LoadSceneAsync(3);
     }
