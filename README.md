@@ -1,5 +1,6 @@
 # Bee-Bee-Gone-Hivecoming
-A Unity-based game project inspired by the original Bee Bee Gone mini-game from GTA: San Andreas by Rockstar Games. This project is part of my master's thesis, focusing on exploring game development through the Unity engine and C# programming, and developed for educational purposes only.
+A Unity-based game project inspired by the original Bee Bee Gone mini-game from GTA: San Andreas by Rockstar Games. This project was completed as the final project for my Master's degree, focusing on exploring game development through the Unity engine and C# programming, and developed for educational purposes only.
+The full technical report prepared for this project can be accessed here: [BeeBeeGone_Hivecoming_Report](BeeBeeGone_Hivecoming_Report.pdf)
 ## About the Game
 Bee Bee Gone: Hivecoming takes the original arcade experience to the next level with improved gameplay, new levels and a story that makes the journey enjoyable, featuring a boss fight and a mini cutscene.
 ## Features
